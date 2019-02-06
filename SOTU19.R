@@ -5,7 +5,7 @@
 #some of this may be out of order, this is for the most part my actual code scratch.
 
 #for my own sake, I am assigning the base dataset a name
-SPEECH<-SOTU19...Sheet1
+SPEECH<-Untitled.spreadsheet...Sheet1
 
 #Check it
 View(SPEECH)
@@ -171,6 +171,7 @@ ggplot(SP6, aes(N, mean.score.))+geom_jitter(aes(colour=sum.E.))+
   xlab("Paragraph Number")+
   ggtitle("Applause")
 
+
 View(SPEECH)
 
 #on the sentence level
@@ -179,7 +180,7 @@ SPSentences<-SPEECH%>%
 
 #add a sentence count
 View(SPSentences)
-I<-1:255
+I<-1:336
 I<-data.frame(I)
 SPs2<-bind_cols(SPSentences, I)
 
